@@ -5,7 +5,7 @@
 class BobMdict < Formula
   desc "Local MDict dictionary service for the Bob MDict plugin"
   homepage "https://github.com/wakewon/bob-plugin-mdict"
-  version "1.0.0"
+  version "1.1.0"
   license "GPL-3.0-or-later"
 
   depends_on "speex"
@@ -13,11 +13,11 @@ class BobMdict < Formula
   on_macos do
     on_arm do
       url "https://github.com/wakewon/bob-plugin-mdict/releases/download/v#{version}/bob-mdict-#{version}-darwin-arm64.tar.gz"
-      sha256 "3b8d38e654dd986410dee6f2602a740c311936dec0f2880a435b60493599d003"
+      sha256 "0d2fb93211409019cb90238cec9a21e84397b62754dd258a5b155a6327455967"
     end
     on_intel do
       url "https://github.com/wakewon/bob-plugin-mdict/releases/download/v#{version}/bob-mdict-#{version}-darwin-amd64.tar.gz"
-      sha256 "603b5b1a6efd1fdbc0dc61cffc3bb871e6246017e513a1d3cbb63e68b5e148db"
+      sha256 "22a01ca3a95b74e13d9299f149a86fe9404fce696033284769b500b19539d33c"
     end
   end
 
